@@ -94,7 +94,9 @@ Notice that the power and activity lights on the rack-mounted networking devices
 ## Lab 2.5: Connect Network Devices
 While completing this lab, use the following information: <br>
 SC connectors have square connectors that are pushed in to connect. <br>
+![Example image](fiber-t-sc-simplex-white-top.jpg)
 LC connectors have both connectors linked together. <br>
+![Example image](fiber-lc-top-blue.jpg)
 Complete this lab as follows: <br>
 ### Install the SFP Transceiver (LC) in the networking closet on Floor 1.
 Under Shelf, expand the Adapters. <br>
