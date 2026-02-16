@@ -1,9 +1,6 @@
 # Module 1 Labs
-
 ## Lab 1.1: Create Network Topologies
-
 Complete this lab as follows:
-
 ### Move Marketing's five computers and switch to the canvas.
 In the tools tray, select the End Devices icon. <br>
 Drag the five computers to the modeler canvas. <br>
@@ -14,11 +11,8 @@ In the tools tray, select the Create Link icon. <br>
 Select Mktg1 and select the Ethernet port. <br>
 Select Mktg_Switch and select an open port. <br>
 Repeat the process for Mktg2-Mktg5. <br>
-
 ## Lab 1.2: Explore a Single Location in a Lab
-
 Complete this lab as follows: <br>
-
 ### Add a monitor to the Office 2 computer.
 Under Office 2, select Hardware to go to the workstation. <br>
 Under Shelf, expand Monitors. <br>
@@ -48,11 +42,8 @@ Select the power button on the computer. <br>
 The computer startup process begins, and you are automatically signed into Windows 11. <br>
 Right-click Start and then select Settings to explore the operating system simulator's capabilities.
 From the top menu (left side), select Office 2 to switch back to the Hardware view. <br>
-
 ## Lab 1.3: Create a Home Wireless Network
-
 Complete this lab as follows: <br>
-
 ### Add the wireless access point to the workspace.
 Under Shelf, expand Wireless Access Points. <br>
 Drag the Wireless Access Point, 802.11b/g/n wireless access point to the workspace. <br>
@@ -78,11 +69,8 @@ In the notification area, select the globe icon, then select the arrow next to t
 Select the HomeNet-AC wireless network. <br>
 Select Connect automatically and then select Connect. <br>
 &emsp;* To confirm the connection, right-click the wireless networking icon in the notification area again and select Network and Internet settings. The image on the Status page shows a connection to the internet. <br>
-
 ## Lab 1.4 : Create a SOHO Network
-
 Complete this lab as follows: <br>
-
 ### Add the computers to the canvas
 In the tools tray, select the End Devices icon. <br>
 Drag all three computers to the modeler canvas.
@@ -114,3 +102,43 @@ Answer the Questions. <br>
 Right-click Start and select Terminal (Admin). <br>
 In the terminal window type ping 192.168.1.1. <br>
 Press Enter. <br>
+## Lab 1.5: Troubleshooting Methodology
+Complete this lab as follows: <br>
+### First, connect the two computers to the switch using the Create Link tool.
+In the tools tray, select Create Link. <br>
+Select the Office1 computer and Ethernet, then select the Switch and any port. <br>
+Select the Home-Laptop computer and select Ethernet, then select the Switch and select any available port. <br>
+Select Create Link to end the link tool. <br>
+### Verify that Office1 can reach an external website.
+Right-click Office1 and select Launch Windows. <br>
+Launch Chrome from the taskbar. Type in rmksupplies.com and press Enter. <br>
+The browser says, "This site can't be reached." <br>
+Something isn't working as expected. Let's identify the problem. <br>
+### Verify that Home-Laptop can reach an external website.
+In the upper left, select Network Modeler. <br>
+Right-click Home-Laptop and select Launch Windows. <br>
+Launch Chrome from the taskbar. Type in rmksupplies.com and press Enter. <br>
+Notice that the website loads correctly. Internet access is working for this computer. <br>
+The connectivity problem seems to be localized to the Office1 computer. <br>
+### Let's theorize what might be causing the problem.
+The IP configuration of Office1 might not be correct. <br>
+The cable might be bad that we plugged into Office1. <br>
+The NIC in Office1 might be bad. <br>
+The port on the switch might be bad. <br>
+Let's test our theories until we find one that appears to be the problem. <br>
+### Compare the IP configuration of the machine that is working to the one that is not working.
+On Home-Laptop, right-click the network icon and select Network & Internet settings. <br>
+Select Ethernet and scroll down to view the IP assignment information. <br>
+Note that Home-Laptop is configured for DHCP (Automatic configuration). <br>
+In the upper left, select Network Modeler. <br>
+Right-click Office1 and select Launch Windows. <br>
+On Office1, right-click the network icon and select Network & Internet settings. <br>
+Select Ethernet and scroll down to view the IP assignment information. <br>
+Note that Office1 has a manually assigned IP address. <br>
+### Implement a fix.
+Let's try changing the IP configuration of Office1 to match Home-Laptop. <br>
+Under IP assignment, select Edit. <br>
+Under Edit IP settings, select Automatic (DHCP) and select Save. <br>
+### Test the fix.
+On Office1, try browsing to rmksupplies.com. <br>
+Did that fix the problem? <br>
