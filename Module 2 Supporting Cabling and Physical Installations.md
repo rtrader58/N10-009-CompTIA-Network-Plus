@@ -33,3 +33,29 @@ On the computer monitor, select Click to view Windows 11 to view the running ope
 Right-click Start and then select Settings.
 Select Network & internet <br>
 The diagram should indicate an active connection. <br>
+### Lab 2.3: Connect a Cable Modem
+Complete this lab as follows: <br>
+### Add the cable modem to the workspace.
+Under Shelf, expand Routers. <br>
+Drag the Cable Modem/Router from the shelf to the workspace. <br>
+Select Back to switch to the back view of the cable modem. <br>
+### Connect the modem to the WAN connection.
+Under Shelf, expand the Cables category. <br>
+Select the Coaxial Cable, RG-6 cable. <br>
+From the Selected Component pane: <br>
+&emsp;* Drag a Coaxial Type F connector to the applicable port on the cable modem. <br>
+&emsp;* Drag the other Coaxial Type F connector to the applicable port on the wall plate. <br>
+### Connect the computer to the cable modem.
+Over the computer, select Back to switch to the back view of the computer. <br>
+Under Shelf, select the Cat6a Cable, RJ45 cable. <br>
+From the Selected Component pane: <br>
+&emsp;* Drag an RJ45 Shielded Connector to the Ethernet port on the cable modem. <br>
+&emsp;* Drag the other RJ45 Shielded Connector to the Ethernet port on the computer (not the Ethernet card in the slot). <br>
+### Provide power to the modem.
+Under Shelf, select the Power Adapter, AC to DC. <br>
+From the Selected Component pane: <br>
+&emsp;* Drag the DC Power Connector to the port on the cable modem. <br>
+&emsp;* Drag the AC Power Adapter end to the power outlet. <br>
+### Verify that the computer is connected to the internet.
+On the monitor, select Click to view Windows 11. <br>
+From the notification area, right-click the Network icon and select Network and Internet settings. <br>
