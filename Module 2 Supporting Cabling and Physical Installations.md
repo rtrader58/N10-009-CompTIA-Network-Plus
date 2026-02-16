@@ -203,119 +203,118 @@ Right-click Start and select Settings.  <br>
 Select Network & Internet.  <br>
 Verify that Ethernet 3 is connected to CorpNet.local.  <br>
 ### Lab 2.9: Explore Physical Connectivity 1
-Complete this lab as follows:
-
+Complete this lab as follows: <br>
 ### View the current state of the first six ports on the Cisco switch and its accompany patch panel.
-Under Networking Closet, select Hardware.
-Zoom in on the Cisco switch in the rack to view the power and network activity lights.
-Note: When a component's power light (the left light) is on, you know the device is plugged in and turned on.
-The network activity light (the right light) tells you which ports are connected to an active device. When this light is blinking, you know that network traffic is being transmitted through the port.
-![Example image](trb_net_comm_exp.jpg)
-From the top right, select Questions.
-Answer Questions 1-3.
-Minimize the Lab Questions window.
+Under Networking Closet, select Hardware. <br>
+Zoom in on the Cisco switch in the rack to view the power and network activity lights. <br>
+Note: When a component's power light (the left light) is on, you know the device is plugged in and turned on. <br>
+The network activity light (the right light) tells you which ports are connected to an active device. When this light is blinking, you know that network traffic is being transmitted through the port. <br>
+![Example image](trb_net_comm_exp.jpg) <br>
+From the top right, select Questions. <br>
+Answer Questions 1-3. <br>
+Minimize the Lab Questions window. <br>
 ### Determine which computers are plugged into ports 1 and 3.
-From the Cisco switch, select the wires plugged into ports 1 and 3.
-Look at the patch panel and find the cables accompanying port.
-From the top right, select Questions.
-Answer Question 4.
-Minimize the Lab Questions window.
+From the Cisco switch, select the wires plugged into ports 1 and 3. <br>
+Look at the patch panel and find the cables accompanying port. <br>
+From the top right, select Questions. <br>
+Answer Question 4. <br>
+Minimize the Lab Questions window. <br>
 ### From the ITAdmin workstation, ping each of the following computers using the IP addresses shown below:
-![Example image](tablelab2-9.jpg)
-From the top left, select Floor 1 Overview.
-Under IT Administration, select ITAdmin.
-Right-click Start and then select Terminal (Admin).
-Type ping ip_address and then press Enter.
-Make a note as to whether the ping was successful or not.
-Repeat step 3d for each remaining IP address.
-Answer Question 5-6.
-Minimize the Lab Questions window.
+![Example image](tablelab2-9.jpg) <br>
+From the top left, select Floor 1 Overview. <br>
+Under IT Administration, select ITAdmin. <br>
+Right-click Start and then select Terminal (Admin). <br>
+Type ping ip_address and then press Enter. <br>
+Make a note as to whether the ping was successful or not. <br>
+Repeat step 3d for each remaining IP address. <br>
+Answer Question 5-6. <br>
+Minimize the Lab Questions window. <br>
 ### From ITAdmin, check for network connectivity.
-From the taskbar, right-click the Network icon and select Network and Internet settings.
-From the diagram at the top, you are informed that you have an Ethernet connection.
-Below the diagram, select Ethernet.
-You are shown details about your network connection.
-Close the Settings app.
+From the taskbar, right-click the Network icon and select Network and Internet settings. <br>
+From the diagram at the top, you are informed that you have an Ethernet connection. <br>
+Below the diagram, select Ethernet. <br>
+You are shown details about your network connection. <br>
+Close the Settings app. <br>
 ### From the hardware view of ITAdmin, check for network connectivity and activity by viewing the network card's link lights.
-From the top left, select IT Administration to view the hardware of the computers in this office.
-Above the ITAdmin workstation (not the monitor), select Back. Notice that:
-&emsp;* The link light for the network card is illuminated, indicating a physical connection (link) between this workstation and the next device (the network switch).
-&emsp;* The network activity light is blinking, indicating that network traffic is being transmitted on this connection.
-&emsp;* These two lights match what you saw when viewing the cables connecting ITAdmin to the Cisco switch and the patch panel.
+From the top left, select IT Administration to view the hardware of the computers in this office. <br>
+Above the ITAdmin workstation (not the monitor), select Back. Notice that: <br>
+&emsp;* The link light for the network card is illuminated, indicating a physical connection (link) between this workstation and the next device (the network switch). <br>
+&emsp;* The network activity light is blinking, indicating that network traffic is being transmitted on this connection. <br>
+&emsp;* These two lights match what you saw when viewing the cables connecting ITAdmin to the Cisco switch and the patch panel. <br>
 ### From the Exec operating system, check for network connectivity.
-From the top left, select Floor 1 Overview.
-Under Executive Office, select Exec.
-Right-click Start and then select Settings.
-Select Network & internet.
-Under the Network & internet heading, you see that this computer is not connected to any networks.
-Close the Settings app.
+From the top left, select Floor 1 Overview. <br>
+Under Executive Office, select Exec. <br>
+Right-click Start and then select Settings. <br>
+Select Network & internet. <br>
+Under the Network & internet heading, you see that this computer is not connected to any networks. <br>
+Close the Settings app. <br>
 ### From the hardware view of Exec, check for network connectivity and activity by viewing the network card's link lights.
-From the top left, select Executive Office to view the hardware for the computers in this office.
-Above the Exec workstation (not the laptop), select Back.
-Zoom in on the Ethernet cable and examine its link lights.
-The link and network activity lights for the Ethernet port with a cable plugged in are not illuminated. This indicates there is no connection to the switch.
-Possible causes for no connectivity include:
-&emsp;* A faulty or disconnected cable
-&emsp;* A bad network card (NIC)
-&emsp;* A faulty or disabled switch port
+From the top left, select Executive Office to view the hardware for the computers in this office. <br>
+Above the Exec workstation (not the laptop), select Back. <br>r>
+Zoom in on the Ethernet cable and examine its link lights. <br>
+The link and network activity lights for the Ethernet port with a cable plugged in are not illuminated. This indicates there is no connection to the switch. <br>
+Possible causes for no connectivity include: <br>
+&emsp;* A faulty or disconnected cable <br>
+&emsp;* A bad network card (NIC) <br>
+&emsp;* A faulty or disabled switch port <br>
 ### From Exec, test the possibility of a bad NIC by dragging the network cable from the existing network card to the onboard port.
-Drag the Ethernet cable from its existing location to the Ethernet onboard port.
-Answer Question 7.
+Drag the Ethernet cable from its existing location to the Ethernet onboard port. <br>
+Answer Question 7. <br>
 ### From the Exec operating system, check for network connectivity.
-On the Exec monitor, select Click to view Windows 11.
-Use the ping command to try to access the following computers:
-&emsp;* Right-click Start and then select Terminal (Admin).
-&emsp;* Type ping 192.168.0.10 (the CorpServer) and press Enter.
+On the Exec monitor, select Click to view Windows 11. <br>
+Use the ping command to try to access the following computers: <br>
+&emsp;* Right-click Start and then select Terminal (Admin). <br>
+&emsp;* Type ping 192.168.0.10 (the CorpServer) and press  <br>Enter. <br>
 &emsp;* Type ping 163.128.1.1 (the ISP) and press Enter.
-&emsp;* Both pings are successful.
-Right-click Start and then select Settings.
-Select Network & internet.
-Under the Network & internet heading, you see that this computer is now connected to the internet.
-Close the Settings app.
+&emsp;* Both pings are successful. <br>
+Right-click Start and then select Settings. <br>
+Select Network & internet. <br>
+Under the Network & internet heading, you see that this computer is now connected to the internet. <br>
+Close the Settings app. <br>
 ### In the Networking Closet, check the link light status for Exec.
-From the top left, select Floor 1 Overview.
-Under Networking Closet, select Hardware.
-Zoom in on the Cisco switch.
-The network activity lights on the switch (port 1) are blinking, indicating that the Exec computer has a connection and network activity.
-From the hardware view of Office1, check for network connectivity.
-From the top left, select Floor 1 Overview.
-Under Office 1, select Hardware.
-Above the workstation, select Back.
-The link and network activity lights are not illuminated, indicating that there is no connection to the switch.
-Possible causes for no connectivity include:
-&emsp;* A faulty or disconnected cable
-&emsp;* A bad network card (NIC)
-&emsp;* A faulty or disabled switch port
+From the top left, select Floor 1 Overview. <br>
+Under Networking Closet, select Hardware. <br>
+Zoom in on the Cisco switch. <br>
+The network activity lights on the switch (port 1) are blinking, indicating that the Exec computer has a connection and network activity. <br>
+From the hardware view of Office1, check for network connectivity. <br>
+From the top left, select Floor 1 Overview. <br>
+Under Office 1, select Hardware. <br>
+Above the workstation, select Back. <br>
+The link and network activity lights are not illuminated, indicating that there is no connection to the switch. <br>
+Possible causes for no connectivity include: <br>
+&emsp;* A faulty or disconnected cable <br>
+&emsp;* A bad network card (NIC) <br>
+&emsp;* A faulty or disabled switch port <br>
 ### Test the network cable for Office1.
-Unplug the existing Ethernet cable from the wall plate and from the back of the computer.
-From the Shelf, expand Cables.
-Select the Cat6a Cable, RJ45 (a known good cable).
-From the Selected Component pane:
-&emsp;* Drag one RJ45 Connector to the Ethernet port (red) in the wall plate.
-&emsp;* Drag the other RJ45 Connector to the Ethernet port in the computer.
-&emsp; The link and network activity lights on the NIC still don't show an active connection. Therefore, the cable in the office wasn't the problem.
+Unplug the existing Ethernet cable from the wall plate and from the back of the computer. <br>
+From the Shelf, expand Cables. <br>
+Select the Cat6a Cable, RJ45 (a known good cable). <br>
+From the Selected Component pane: <br>
+&emsp;* Drag one RJ45 Connector to the Ethernet port (red) in the wall plate. <br>
+&emsp;* Drag the other RJ45 Connector to the Ethernet port in the computer. <br>
+&emsp; The link and network activity lights on the NIC still don't show an active connection. Therefore, the cable in the office wasn't the problem. <br>
 ### From the wiring closet, test the network patch cable for Office1.
-From the top left, select Floor 1 Overview.
-Under Networking Closet, select Hardware.
-Remove the existing patch cable from Off 1 (Office 1) and from port 3.
-From the Shelf, select the Cat6a Cable. RJ45.
-From the Selected Component pane:
-Drag one RJ45 Connector to the Off 1 port on the patch panel.
-Drag the other RJ45 Connector to the port 3 on the Cisco switch.
-The link and network activity lights for port 3 indicate an active connection. The patch cable in the Network Closet was the problem.
+From the top left, select Floor 1 Overview. <br>
+Under Networking Closet, select Hardware. <br>
+Remove the existing patch cable from Off 1 (Office 1) and from port 3. <br>
+From the Shelf, select the Cat6a Cable. RJ45. <br>
+From the Selected Component pane: <br>
+Drag one RJ45 Connector to the Off 1 port on the patch panel. <br>
+Drag the other RJ45 Connector to the port 3 on the Cisco switch. <br>
+The link and network activity lights for port 3 indicate an active connection. The patch cable in the Network Closet was the problem. <br>
 ### From Office1, test the network connection to the following devices.
-From the top left, select Floor 1 Overview.
-Under Office 1, select Office1.
-Right-click Start and then select Terminal (Admin).
-Ping the following devices:
-&emsp;* Office1: 192.168.0.30
-&emsp;* Exec: 192.168.0.34
-&emsp;* ISP: 163.128.1.1
-&emsp;You are now able to ping all devices verifying local and internet connectivity.
-(Optional)
-Look at the Network icon in the Notification area.
-&emsp;* The icon indicates a normal network connection.
-&emsp;* Right-click Start and then select Settings.
-&emsp;* Select Network & internet.
-&emsp;* Under Status, you see that this computer is now connected to the internet.
-&emsp;* Close the Settings app.
+From the top left, select Floor 1 Overview. <br>
+Under Office 1, select Office1. <br>
+Right-click Start and then select Terminal (Admin). <br>
+Ping the following devices: <br>
+&emsp;* Office1: 192.168.0.30 <br>
+&emsp;* Exec: 192.168.0.34 <br>
+&emsp;* ISP: 163.128.1.1 <br>
+&emsp;You are now able to ping all devices verifying local and internet connectivity. <br>
+(Optional) <br>
+Look at the Network icon in the Notification area. <br>
+&emsp;* The icon indicates a normal network connection. <br>
+&emsp;* Right-click Start and then select Settings. <br>
+&emsp;* Select Network & internet. <br>
+&emsp;* Under Status, you see that this computer is now connected to the internet. <br>
+&emsp;* Close the Settings app. <br>
