@@ -1,4 +1,4 @@
-# Module 1 Labs
+# Module 1: Explaining Network Topologies Labs
 ## Lab 1.1: Create Network Topologies
 Complete this lab as follows:
 ### Move Marketing's five computers and switch to the canvas.
