@@ -59,3 +59,76 @@ From the Selected Component pane: <br>
 ### Verify that the computer is connected to the internet.
 On the monitor, select Click to view Windows 11. <br>
 From the notification area, right-click the Network icon and select Network and Internet settings. <br>
+### Lab 2.4: Explore Multiple Locations in a Lab
+Complete this lab as follows: <br>
+### For safety, power off the Office 2 computer and unplug the computer from the power source before working with internal components.
+Under Office 2, select Hardware to view the hardware for this office. <br>
+On the computer, select the power button to turn the computer off.
+Select Back to switch to the back view of the computer. <br>
+Unplug the AC power cable. <br>
+### Install the PCIe network adapter in the Office 2 computer's free PCIe (x1) slot.
+Above the computer, select Motherboard to switch to the motherboard view of the computer. <br>
+Under Shelf, expand Network Adapters. <br>
+Drag the PCIe Network Adapter to the applicable free PCIe (x1) slot on the motherboard. <br>
+Select Back to switch to the back view of the computer. <br>
+Reconnect the AC power cable. <br>
+### Connect an Ethernet cable to the network card in the computer and to the wall plate.
+Ensure you are using the Back view of the Office 2 computer. <br>
+Under Shelf, expand Cables. <br>
+Select the Networking Cable. <br>
+From the Selected Component pane: <br>
+&emsp;* Drag an RJ45 Connector to the built-in port or the port on the PCIe network card. <br>
+&emsp;* Drag the unconnected RJ45 Connector to the network port on the wall plate (the left port). <br>
+### Turn the computer on and test for network and internet connectivity.
+Above the computer, select Front. <br>
+Select the power button on the computer. <br>
+The computer startup process begins and you are automatically logged into Windows. <br>
+Right-click Start and select Settings to open the Microsoft Settings app. <br>
+Select Network & Internet. <br>
+Notice that in the Status pane, the image shown indicates a connection to the network. <br>
+### Test to see if the uninterruptable power supply is functioning properly in the networking closet.
+From the top left navigation tabs, select Floor 1. <br>
+Under Networking Closet, select Hardware. <br> <br>
+From the wall outlets, unplug the AC power connectors (Male) by dragging them to the side.
+Notice that the power and activity lights on the rack-mounted networking devices are still flickering (zoom in if necessary). Also notice that the monitors are still on. <br>
+## Lab 2.5: Connect Network Devices
+While completing this lab, use the following information: <br>
+SC connectors have square connectors that are pushed in to connect. <br>
+LC connectors have both connectors linked together. <br>
+Complete this lab as follows: <br>
+### Install the SFP Transceiver (LC) in the networking closet on Floor 1.
+Under Shelf, expand the Adapters. <br>
+Drag the SFP Transceiver (LC) to the SFP 2 port on the switch. <br>
+### Connect the fiber cable to the switch.
+Under Shelf, expand Cables. <br>
+Select Cable, Fiber, SC to LC. <br>
+From the Selected Component pane: <br>
+&emsp;* Drag Connector, Fiber, Duplex LC Multi-mode, Male to the SFP LC port (plugged into SFP2) on the switch. <br>
+&emsp;* Drag the Fiber Optic SC Connector (A) to port 3 on the fiber patch panel. <br>
+&emsp;* Drag the Fiber Optic SC Connector (B) to port 4 on the fiber patch panel. <br>
+### Access the networking closet on floor 2.
+From the top left, select Floor 1. <br>
+Under Building A, select Floor 2. <br>
+Under Networking Closet 2, select Hardware. <br>
+### Connect the fiber cable to switches on Floor 2.
+Under Shelf, expand Adapters. <br>
+Drag SFP Transceiver (LC) to an open SFP port on the switch. <br>
+Under Shelf, expand Cables. <br>
+Select Cable, Fiber, SC to LC. <br>
+From the Selected Component pane: <br>
+&emsp;* Drag the Connector, Fiber, Duplex LC, Multi-mode, Male to the SFP port. <br>
+&emsp;* Drag the Fiber Optic SC Connector (A) to port 1 on the fiber patch panel. <br>
+&emsp;* Drag the Fiber Optic SC Connector (B) to port 2 on the fiber patch panel. <br>
+###Plug the switch on Floor 2 into a bank 1 critical load outlet on the UPS. <br>
+Above the rack, select Back to switch to the back view of the rack. <br>
+Under Shelf, select AC Power Cable. <br>
+From the Select Connector pane: <br>
+&emsp;* Drag AC Power Connector (Female) to the AC port on the back of the switch. <br>
+&emsp;* Drag the AC Power Connector (Male) to an open bank 1 critical load outlet.
+Above the rack, select Front to switch to the front view and confirm that the network switch has power.
+### Verify that there is an internet connection for any Floor 2 computer.
+From the top left, select Floor 2.
+Select any of the computers on Floor 2. <br>
+Right-click Start and then select Settings.
+Select Network & Internet. <br>
+The image shown should indicate a connection to the internet. <br>
