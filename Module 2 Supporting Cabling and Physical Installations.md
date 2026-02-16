@@ -134,3 +134,40 @@ Select any of the computers on Floor 2. <br>
 Right-click Start and then select Settings.
 Select Network & Internet. <br>
 The image shown should indicate a connection to the internet. <br>
+## Lab 2.6: Connect Patch Panel Cables 1
+Complete this lab as follows: <br>
+### From the Networking Closet, connect the patch panel and switch.
+Under Shelf, expand Cables. <br>
+Select the Cat6a Cable, RJ45 cable. <br>
+From the Selected Component pane: <br>
+Drag an RJ45 Shielded Connector to the Off 1 (Office 1) port on the patch panel. <br>
+Drag the other RJ45 Shielded Connector to port 3 on the Cisco switch (top row, third port from the left). <br>
+### Connect the Office1 workstation to the local area network.
+From the top left, select Floor 1 Overview. <br>
+In Office 1, select Hardware. <br>
+Above the computer, select Back to switch to the back view of the computer. <br>
+Under Shelf, expand Cables. <br>
+Select Cat6a Cable, RJ45. <br>
+From the Selected Component pane: <br>
+&emsp;* Drag an RJ45 Shielded Connector to the Ethernet port on the computer. <br>
+&emsp;* Drag the other RJ45 Shielded Connector to the open Ethernet port on the wall outlet. <br>
+### Configure the workstation to obtain IP and DNS addresses automatically from the server on the network.
+On the Office1 monitor, select Click to view Windows 11. <br>
+From the Windows taskbar, right-click Start and then select Settings. <br>
+Select Network & internet. <br>
+Select Ethernet and then next to IP assignment, select Edit. <br>
+Change the Edit IP settings drop-down to Automatic (DHCP), then click Save. <br>
+At the top of the Settings dialog, select Network & internet. <br>
+The globe icon next to the word Connected indicates the machine is now connected to the network and can access the internet. <br>
+## Lab 2.7: Connect Patch Panel Cables 2
+While completing this lab, use the following port information. <br>
+![Example image](PortTable.jpg)  <br>
+Complete this lab as follows: <br>
+### From the Networking Closet, attach an Ethernet cable from the patch panel to the switch port.
+Under Shelf, expand Cables. <br>
+Select the Cat6a Cable, RJ45. <br>
+From the Selected Component pane: <br>
+&emsp;* Drag an RJ45 Shielded Connector to the Exec 1 port on the patch panel. <br>
+&emsp;* Drag the other RJ45 Shielded Connector to the correct port on the Cisco switch (top row). <br>
+![Example image](cisco_switch_panel.jpg)  <br>
+### Repeat steps 1b-1c for the Supp and Lobby ports.
