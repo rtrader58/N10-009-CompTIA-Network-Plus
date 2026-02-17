@@ -94,9 +94,9 @@ Notice that the power and activity lights on the rack-mounted networking devices
 ## Lab 2.5: Connect Network Devices
 While completing this lab, use the following information: <br>
 SC connectors have square connectors that are pushed in to connect. <br>
-![Example image](fiber-t-sc-simplex-white-top.jpg) <br>
+![Example image](images/fiber-t-sc-simplex-white-top.jpg) <br>
 LC connectors have both connectors linked together. <br>
-![Example image](fiber-lc-top-blue.jpg) <br>
+![Example image](images/fiber-lc-top-blue.jpg) <br>
 Complete this lab as follows: <br>
 ### Install the SFP Transceiver (LC) in the networking closet on Floor 1.
 Under Shelf, expand the Adapters. <br>
@@ -161,7 +161,7 @@ At the top of the Settings dialog, select Network & internet. <br>
 The globe icon next to the word Connected indicates the machine is now connected to the network and can access the internet. <br>
 ## Lab 2.7: Connect Patch Panel Cables 2
 While completing this lab, use the following port information. <br>
-![Example image](PortTable.jpg)  <br>
+![Example image](images/PortTable.jpg)  <br>
 Complete this lab as follows: <br>
 ### From the Networking Closet, attach an Ethernet cable from the patch panel to the switch port.
 Under Shelf, expand Cables. <br>
@@ -169,20 +169,20 @@ Select the Cat6a Cable, RJ45. <br>
 From the Selected Component pane: <br>
 &emsp;* Drag an RJ45 Shielded Connector to the Exec 1 port on the patch panel. <br>
 &emsp;* Drag the other RJ45 Shielded Connector to the correct port on the Cisco switch (top row). <br>
-![Example image](cisco_switch_panel.jpg)  <br>
+![Example image](images/cisco_switch_panel.jpg)  <br>
 ### Repeat steps 1b-1c for the Supp and Lobby ports.
 ### Lab 2.8: Connect Fiber Optic Cables
 To determine which network components to use, examine the ports on the switch and the CorpiSCSI server.  <br>
 The SFP module installed in the switch uses LC connectors.  <br>
-![Example image](sfp-front.jpg)  <br>
+![Example image](images/sfp-front.jpg)  <br>
 The fiber optic NIC installed in the CorpiSCSI server uses ST connectors.  <br>
-![Example image](fb_strxjk.jpg) ![Example image](fb_sttxjk.jpg)  <br>
+![Example image](images/fb_strxjk.jpg) ![Example image](images/fb_sttxjk.jpg)  <br>
 The ST to LC fiber cable is the only cable that can be used to connect the switch and the server.  <br>
 LC connectors have two connectors linked together. LC connectors can only be inserted one way.  <br>
-![Example image](fiber-lc-top.jpg)   <br>
+![Example image](images/fiber-lc-top.jpg)   <br>
 ST connectors twist on using a BNC connector. An ST cable has two color-coded ST connectors. They have one for transmit (Tx) and one for receive (Rx).  <br>
 ![Example image](fiber-st-red.jpg)  <br>
-![Example image](fiber-st-black.jpg)   <br>
+![Example image](images/fiber-st-black.jpg)   <br>
 ### Complete this lab as follows:
 Connect the fiber ST to LC cable to the SFP port.  <br>
 Under Shelf, expand Cables.  <br>
@@ -209,7 +209,7 @@ Under Networking Closet, select Hardware. <br>
 Zoom in on the Cisco switch in the rack to view the power and network activity lights. <br>
 Note: When a component's power light (the left light) is on, you know the device is plugged in and turned on. <br>
 The network activity light (the right light) tells you which ports are connected to an active device. When this light is blinking, you know that network traffic is being transmitted through the port. <br>
-![Example image](trb_net_comm_exp.jpg) <br>
+![Example image](images/trb_net_comm_exp.jpg) <br>
 From the top right, select Questions. <br>
 Answer Questions 1-3. <br>
 Minimize the Lab Questions window. <br>
@@ -220,7 +220,7 @@ From the top right, select Questions. <br>
 Answer Question 4. <br>
 Minimize the Lab Questions window. <br>
 ### From the ITAdmin workstation, ping each of the following computers using the IP addresses shown below:
-![Example image](tablelab2-9.jpg) <br>
+![Example image](images/tablelab2-9.jpg) <br>
 From the top left, select Floor 1 Overview. <br>
 Under IT Administration, select ITAdmin. <br>
 Right-click Start and then select Terminal (Admin). <br>
@@ -321,15 +321,15 @@ Look at the Network icon in the Notification area. <br>
 ## Lab 2.8: Connect Fiber Optic Cables
 The ST to LC fiber cable is the only cable that can be used to connect the switch and the server. <br>
 The SFP module installed in the switch uses LC connectors. <br>
-![Example image](sfp-front.jpg)  <br>
+![Example image](images/sfp-front.jpg)  <br>
 The fiber optic NIC installed in the CorpiSCSI server uses ST connectors. <br>
-![Example image](fb_strxjk.jpg) ![Example image](fb_sttxjk.jpg)  <br>
+![Example image](images/fb_strxjk.jpg) ![Example image](images/b_sttxjk.jpg)  <br>
 The ST to LC fiber cable is the only cable that can be used to connect the switch and the server. <br>
 LC connectors have two connectors linked together. LC connectors can only be inserted one way. <br>
-![Example image](fiber-lc-top.jpg)   <br>
+![Example image](images/fiber-lc-top.jpg)   <br>
 ST connectors twist on using a BNC connector. An ST cable has two color-coded ST connectors. They have one for transmit (Tx) and one for receive (Rx). <br>
-![Example image](fiber-st-red.jpg)  <br>
-![Example image](fiber-st-black.jpg)   <br>
+![Example image](images/fiber-st-red.jpg)  <br>
+![Example image](images/fiber-st-black.jpg)   <br>
 Complete this lab as follows: <br>
 Connect the fiber ST to LC cable to the SFP port. <br>
 Under Shelf, expand Cables. <br>
