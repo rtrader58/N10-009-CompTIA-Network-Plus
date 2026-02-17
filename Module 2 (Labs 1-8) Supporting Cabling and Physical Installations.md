@@ -1,7 +1,7 @@
-# Module 2: Supporting Cabling and Physical Installations
+# Module 2: (Labs 2.1-2.8): Supporting Cabling and Physical Installations
+
 ## Lab 2.1 : Reconnect to an Ethernet Network
 Complete this lab as follows: <br>
-
 ### Add the 1000Base TX adapter to the Office 2 computer.
 Above the computer, select Motherboard to switch to the motherboard view of the computer. <br>
 Under Shelf, expand Network Adapters. <br>

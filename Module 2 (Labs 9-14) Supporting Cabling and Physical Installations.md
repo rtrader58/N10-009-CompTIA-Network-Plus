@@ -1,4 +1,5 @@
 # Module 2: (Labs 2.9 - 2.14) - Supporting Cabling and Physical Installations 
+
 ### Lab 2.9: Explore Physical Connectivity 1
 Complete this lab as follows: <br>
 ### View the current state of the first six ports on the Cisco switch and its accompany patch panel. <br>

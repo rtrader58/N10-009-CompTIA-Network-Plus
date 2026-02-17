@@ -1,4 +1,5 @@
 # Module 3 Configuring Interfaces and Switches
+
 ## Lab 3.1: Select and Install a Network Adapter
 Complete this lab as follows: <br>
 ### Insert the PCI adapter into the motherboard.
