@@ -46,7 +46,7 @@ Configure the IPv4 settings as follows: <br>
 &emsp;* IP address: 192.168.0.254 <br>
 &emsp;* Subnet mask: 255.255.255.0 <br>
 &emsp;* Default gateway: 192.168.0.5 <br>
-&emsp;* &emsp;* Preferred DNS: 163.128.78.93 <br>
+&emsp;* Preferred DNS: 163.128.78.93 <br>
 &emsp;* Alternate DNS: 163.128.80.93 <br>
 Select Save. <br>
 ### Configure the IP version 4 TCP/IP settings for the Ethernet 2 NIC.
