@@ -302,7 +302,7 @@ Under Networking Closet, select Hardware. <br>
 Zoom in on the switch ports. <br>
 &emsp; Notice that there are activity lights for other ports, yet there is a lack of activity for port 4. <br>
 &emsp; Possible causes include: <br>
-T&emsp;* he cable between Office 2's patch panel port and the switch is bad or disconnected.
+&emsp;* The cable between Office 2's patch panel port and the switch is bad or disconnected. <br>
 &emsp;* Port 4 on the switch is disabled or shut down. <br>
 Select the cable plugged into Off 2. <br>
 &emsp; Notice that the other end of the cable (which is highlighted) is plugged into port 4. <br>
