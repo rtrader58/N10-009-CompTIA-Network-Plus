@@ -318,3 +318,34 @@ Look at the Network icon in the Notification area. <br>
 &emsp;* Select Network & internet. <br>
 &emsp;* Under Status, you see that this computer is now connected to the internet. <br>
 &emsp;* Close the Settings app. <br>
+## Lab 2.8: Connect Fiber Optic Cables
+The ST to LC fiber cable is the only cable that can be used to connect the switch and the server. <br>
+The SFP module installed in the switch uses LC connectors. <br>
+![Example image](sfp-front.jpg)  <br>
+The fiber optic NIC installed in the CorpiSCSI server uses ST connectors. <br>
+![Example image](fb_strxjk.jpg) ![Example image](fb_sttxjk.jpg)  <br>
+The ST to LC fiber cable is the only cable that can be used to connect the switch and the server. <br>
+LC connectors have two connectors linked together. LC connectors can only be inserted one way. <br>
+![Example image](fiber-lc-top.jpg)   <br>
+ST connectors twist on using a BNC connector. An ST cable has two color-coded ST connectors. They have one for transmit (Tx) and one for receive (Rx). <br>
+![Example image](fiber-st-red.jpg)  <br>
+![Example image](fiber-st-black.jpg)   <br>
+Complete this lab as follows: <br>
+Connect the fiber ST to LC cable to the SFP port. <br>
+Under Shelf, expand Cables. <br>
+Drag the Cable, Fiber, ST to LC cable to the SFP 1 LC port on the switch. <br>
+In the Select Connector window, select the Connector, Fiber, Duplex LC, Multi-mode, Male. <br>
+Connect the fiber ST to LC cable to the TX and RX ports. <br>
+Above the rack, select Back to switch to the back view. <br>
+From the Selected Component pane: <br>
+&emsp;* Drag the ST Connector (A) to the TX port on the CorpiSCSI server (the bottom server). <br>
+&emsp;* Drag the ST Connector (B) to the RX port on the CorpiSCSI server. <br>
+Disconnect the Cat6a RJ45 cable from the CorpiSCSI server and switch. <br>
+Drag the RJ45 connector from the back of the server to the Shelf. <br>
+Above the rack, select Front to view the front of the rack. <br>
+Drag the highlighted RJ45 connector from the switch to the Shelf. <br>
+Verify that the CorpiSCSI server is connected to the network. <br>
+On the CorpiSCSI's monitor, select Click to view Windows Server 2019. <br>
+Right-click Start and select Settings. <br>
+Select Network & Internet. <br>
+Verify that Ethernet 3 is connected to CorpNet.local. <br>
