@@ -119,7 +119,7 @@ Configure or verify the following settings: <br>
 &emsp;* Destination port range (From and To): Other <br>
 &emsp; &emsp;* Custom (From and To) 5151 <br>
 &emsp;* Redirect target IP: 172.16.1.5 <br>
-R&emsp;* edirect target port: Other 5151 <br>
-D&emsp;* escription: RDP from LAN to web server using custom port <br>
+&emsp;* Redirect target port: Other 5151 <br>
+&emsp;* Description: RDP from LAN to web server using custom port <br>
 Select Save. <br>
 Select Apply Changes. <br>
