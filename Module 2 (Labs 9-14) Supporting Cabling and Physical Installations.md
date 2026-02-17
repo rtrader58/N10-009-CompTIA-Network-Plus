@@ -6,7 +6,7 @@ Under Networking Closet, select Hardware.
 Zoom in on the Cisco switch in the rack to view the power and network activity lights. <br>
 Note: When a component's power light (the left light) is on, you know the device is plugged in and turned on. <br>
 The network activity light (the right light) tells you which ports are connected to an active device. When this light is blinking, you know that network traffic is being transmitted through the port. <br>
-![Example image](trb_net_comm_exp_1.jpg)
+![Example image](images/trb_net_comm_exp_1.jpg)
 From the top right, select Questions. <br>
 Answer Questions 1-3. <br>
 Minimize the Lab Questions window. <br>
@@ -17,7 +17,7 @@ From the top right, select Questions. <br>
 Answer Question 4. <br>
 Minimize the Lab Questions window. <br>
 ### From the ITAdmin workstation, ping each of the following computers using the IP addresses shown below: <br>
-![Example image](Lab2-9 table.jpg) <br>
+![Example image](images/Lab2-9 table.jpg) <br>
 From the top left, select Floor 1 Overview. <br>
 Under IT Administration, select ITAdmin. <br>
 Right-click Start and then select Terminal (Admin). <br>
@@ -192,7 +192,7 @@ Select the power button on the CorpiSCSI monitor. <br>
 ## Lab 2.11: Troubleshoot Physical Connectivity 1
 Explanation <br>
 While completing this lab, use the following information: <br>
-![Example image](lab2_11 table.jpg) <br>
+![Example image](images/lab2_11 table.jpg) <br>
 Complete this lab as follows: <br>
 ### From the Office1 computer, use the ping command to begin troubleshooting the connectivity problem.
 Under Office 1, select Office1. <br>
@@ -268,7 +268,7 @@ Notice that the ping to Office 2 succeeds. The problem is resolved. <br>
 &emsp; Replacing the NIC in Office 2 and making a console connection to the switch to confirm if port 2 is disabled are two viable approaches to this problem. Yet, as indicated earlier, you should look for common errors or solutions that you can test quickly. Think about and check cables, power, and connectivity first when troubleshooting. <br>
 ## Lab 2.12: Troubleshoot Physical Connectivity 2
 While completing this lab, use the following information: <br>
-![Example image](lab2_12 table.jpg) <br>
+![Example image](images/lab2_12 table.jpg) <br>
 Complete this lab as follows: <br>
 ### From the IT Administration office, ping each workstation on the network.
 Under IT Administration, select ITAdmin. <br>
@@ -337,7 +337,7 @@ Repeat step 8e for each remaining computer. <br>
 All pings are now successful. <br>
 ## Lab 2.13: Troubleshoot Physical Connectivity 3
 While completing this lab, use the following information: <br>
-![Example image](lab2_13 table.jpg) <br>
+![Example image](images/lab2_13 table.jpg) <br>
 Complete this lab as follows: <br>
 ### From Exec, use the ping command to begin troubleshooting the connectivity problem.
 Under Executive Office, select Exec. <br>
