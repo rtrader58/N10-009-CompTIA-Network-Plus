@@ -428,6 +428,6 @@ From the Selected Component pane, drag the unconnected RJ45 Shielded Connector t
 On the Office1 monitor, select Click to view Windows 11. <br>
 Right-click Start and select Settings. <br>
 Select Network & Internet. <br>
-T&emsp; he diagram on the Status page shows a connection to the network and internet. <br>
+&emsp; The diagram on the Status page shows a connection to the network and internet. <br>
 (Optional) Ping each workstation on the network. <br>
 Each ping attempt now succeeds. <br>
