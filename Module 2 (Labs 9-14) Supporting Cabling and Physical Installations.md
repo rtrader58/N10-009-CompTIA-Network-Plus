@@ -45,7 +45,7 @@ Right-click Start and then select Settings. <br>
 Select Network & internet. <br>
 Under the Network & internet heading, you see that this computer is not connected to any networks. <br>
 Close the Settings app. <br>
-F### rom the hardware view of Exec, check for network connectivity and activity by viewing the network card's link lights.
+### From the hardware view of Exec, check for network connectivity and activity by viewing the network card's link lights.
 From the top left, select Executive Office to view the hardware for the computers in this office. <br>
 Above the Exec workstation (not the laptop), select Back. <br>
 Zoom in on the Ethernet cable and examine its link lights. <br>
@@ -89,7 +89,7 @@ Select the Cat6a Cable, RJ45 (a known good cable). <br>
 From the Selected Component pane: <br>
 &emsp;* Drag one RJ45 Connector to the Ethernet port (red) in the wall plate. <br>
 &emsp;* Drag the other RJ45 Connector to the Ethernet port in the computer. <br>
-T&emsp; The link and network activity lights on the NIC still don't show an active connection. Therefore, the cable in the office wasn't the problem. <br>
+&emsp; The link and network activity lights on the NIC still don't show an active connection. Therefore, the cable in the office wasn't the problem. <br>
 ### From the wiring closet, test the network patch cable for Office1.
 From the top left, select Floor 1 Overview. <br>
 Under Networking Closet, select Hardware. <br>
@@ -236,7 +236,7 @@ Under Networking Closet, select Hardware. <br>
 &emsp; Notice that the system light for the switch indicates that it is powered on. <br>
 Observe the activity lights for all ports on the switch. <br>
 &emsp; Notice that there is no activity for Port 4. Possible causes include: <br>
-T&emsp;* he cable between Office 2's patch panel port and the switch is bad or disconnected. <br>
+&emsp;* The cable between Office 2's patch panel port and the switch is bad or disconnected. <br>
 &emsp;* Port 4 on the switch is disabled or shut down.
 ### Verify that the network cable is connected to Office2's patch panel port and the switch.
 Select Port 4 on the switch. <br>
@@ -249,7 +249,7 @@ From the Selected Component pane: <br>
 &emsp;* Drag an RJ45 Connector to Port 4 on the switch. <br>
 &emsp;* Drag the unconnected RJ45 Connector to the patch panel port for Off 2 (Office 2). <br>
 &emsp; Notice that the link and status lights for Port 4 are now green and active. <br>
-F### rom Office 2, check for a network connection. <br>
+### From Office 2, check for a network connection. <br>
 From the top left, select Floor 1 Overview. <br>
 Under Office 2, select Hardware. <br>
 Check for an active link light on the network card of the computer. <br>
