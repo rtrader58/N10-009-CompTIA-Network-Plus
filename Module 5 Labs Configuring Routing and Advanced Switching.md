@@ -129,6 +129,7 @@ Complete this lab as follows: <br>
 In the tools tray, select Create Link. <br>
 Create the connections by doing the following: <br>
 &emsp;* Select Access1 and then Access 1 port 0. <br>
+
 &emsp;* Select Dist1 and then enp2s0. <br>
 &emsp;* Select Access2 and then Access 2 port 0. <br>
 &emsp;* Select Dist2 and then enp2s0. <br>
@@ -137,10 +138,10 @@ Create the connections by doing the following: <br>
 ### Make the redundant connections from each distribution layer router to the other two switches.
 From the top right, select Exhibits. <br>
 Create the redundant connections as specified in the following table: <br>
-![Example image](images/lab5_4_1 table.jpg)  <br>
+![Example image](images/lab5_4_1_table.jpg)  <br>
 ### Implement the connections from the core layer to the distribution layer.
 Use the network information from the exhibit to connect the core routers as follows: <br>
-![Example image](images/lab5_4_2 table.jpg)  <br>
+![Example image](images/lab5_4_2_table.jpg)  <br>
 ### Lab 5.5: Configure Switch IP and VLAN - GUI
 Complete this lab as follows: <br>
 ### Log in to the Cisco switch.
