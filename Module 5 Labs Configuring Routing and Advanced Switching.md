@@ -123,3 +123,118 @@ Configure or verify the following settings: <br>
 &emsp;* Description: RDP from LAN to web server using custom port <br>
 Select Save. <br>
 Select Apply Changes. <br>
+## Lab 5.4: Create a Three-Tier Network
+Complete this lab as follows: <br>
+### Create the default connection for each access layer switch as follows:
+In the tools tray, select Create Link. <br>
+Create the connections by doing the following: <br>
+&emsp;* Select Access1 and then Access 1 port 0. <br>
+&emsp;* Select Dist1 and then enp2s0. <br>
+&emsp;* Select Access2 and then Access 2 port 0. <br>
+&emsp;* Select Dist2 and then enp2s0. <br>
+&emsp;* Select Access3 and then Access 3 port 0. <br>
+&emsp;* Select Dist3 and then enp2s0. <br>
+### Make the redundant connections from each distribution layer router to the other two switches.
+From the top right, select Exhibits. <br>
+Create the redundant connections as specified in the following table: <br>
+![Example image](images/lab5_4_1 table.jpg)  <br>
+### Implement the connections from the core layer to the distribution layer.
+Use the network information from the exhibit to connect the core routers as follows: <br>
+![Example image](images/lab5_4_2 table.jpg)  <br>
+### Lab 5.5: Configure Switch IP and VLAN - GUI
+Complete this lab as follows: <br>
+### Log in to the Cisco switch.
+In the Google Chrome URL field, type 192.168.0.2 and press Enter. <br>
+Maximize the window for better viewing. <br>
+In the Username and Password fields, enter cisco (case-sensitive). <br>
+Select Log In. <br>
+### Assign a static IPv4 address to VLAN 1.
+From the left navigation pane, expand and select Administration > Management Interface > IPv4 Interface. <br>
+From the right pane, for IP Address Type, select Static. <br>
+Configure the IPv4 interface as follows: <br>
+&emsp;* IP address: 192.168.45.72 <br>
+&emsp;* Mask: 255.255.255.0 <br>
+&emsp;* Administrative Default Gateway: 192.168.45.1 <br>
+Select Apply. <br>
+Select OK. <br>
+The switch will automatically log you out. <br>
+### Log in to the Cisco switch.
+In the Username and Password fields, enter cisco (case-sensitive). <br>
+Select Log In. <br>
+### Change the default VLAN ID for the switch to VLAN 16.
+From the left pane, expand and select VLAN Management > Default VLAN Settings. <br>
+Set Default VLAN ID After Reboot to 16. <br>
+Select Apply and then select OK. <br>
+### Save the changes to the switch's startup configuration file.
+From the upper right of the switch window, select Save. <br>
+For Source File Name, make sure Running configuration is selected. <br>
+For Destination File Name, make sure Startup configuration is selected. <br>
+Select Apply. <br>
+Select OK. <br>
+Select Done. <br>
+### Reboot the switch for changes to take effect.
+From the left pane, expand and select Administration > Reboot. <br>
+From the right pane, select Reboot. <br>
+Select OK. <br>
+Wait for the switch to restart. <br>
+## Lab 5.6: Create VLANs - GUI
+Complete this lab as follows:
+### Log in to the Cisco switch.
+In the Username field for the Cisco switch, enter ITSwitchAdmin (case-sensitive). <br>
+In the Password field, enter Admin$only (case-sensitive). <br>
+Select Log In. <br>
+### Create the IPCameras VLAN.
+From the Getting Started pane (right), under Initial Setup, select Create VLAN. <br>
+Select Add. <br>
+For VLAN ID, enter 2. <br>
+For VLAN Name, enter IPCameras. <br>
+Select Apply. <br>
+Select Close. <br>
+### Configure the IPCameras VLAN ports.
+From the left pane, under VLAN Management, select Port to VLAN. <br>
+Using the VLAN ID equals to drop-down menu, select 2. <br>
+Select Go. <br>
+For ports GE18 through GE21, use the drop-down menus to select Untagged. <br>
+Select Apply. <br>
+### Connect the IP camera in the lobby to the VLAN and mount the IP cameras.
+From the top left, select Floor 1. <br>
+Under Lobby, select Hardware. <br>
+Under Shelf, expand CCTV Cameras. <br>
+Drag the IP Camera (Lobby) to the workspace. <br>
+Under Workspace, for the IP camera, select Back to switch to the back view of the IP camera. <br>
+Under Shelf, expand Cables and then select the Cat6a Cable, RJ45 cable. <br>
+From the Selected Component pane: <br>
+&emsp;* Drag an RJ45 Connector to the RJ-45 port on the IP camera wall mount plate. <br>
+&emsp;* Drag the unconnected RJ45 Connector to the RJ-45 port on the back of the IP camera. <br>
+Drag the IP camera to the IP camera wall plate. <br>
+### Connect the IP camera in the Networking Closet to the VLAN and mount the IP cameras.
+From the top left, select Floor 1. <br>
+Under Networking Closet, select Hardware. <br>
+Under Shelf, expand CCTV Cameras. <br>
+Drag the IP Camera (Networking Closet) to the workspace. <br>
+Under Workspace for the IP camera, select Back to switch to the back view of the IP camera. <br>
+Under Shelf, expand Cables and then select the Cat6a Cable, RJ45 cable. <br>
+From the Selected Component pane: <br>
+&emsp;* Drag an RJ45 Connector to the RJ-45 port on the IP camera mount wall plate. <br>
+&emsp;* Drag the unconnected RJ45 cable to the RJ-45 port on the back of the IP camera. <br>
+Drag the IP camera to the IP camera wall plate to mount the IP camera. <br>
+### Connect the DHCP server and laptop to the VLAN.
+From the Networking Closet, under Shelf, select Cat6a Cable, RJ45. <br>
+From the Selected Component pane: <br>
+&emsp;* Drag an RJ45 Connector to port 21 on the switch. <br>
+&emsp;* Drag the unconnected RJ45 Connector to port 21 on the patch panel. <br>
+### Connect IT-Laptop5 to the VLAN.
+From the top menu, select Floor 1. <br>
+Under IT Administration, select Hardware. <br>
+Above IT-Laptop5, select Back to switch to the back view of the laptop. <br>
+Under Shelf, select Cat6a Cable, RJ45. <br>
+From the Selected Component pane: <br>
+&emsp;* Drag an RJ45 Connector to the RJ-45 port on the laptop. <br>
+&emsp;* Drag the unconnected RJ45 Connector to the open RJ-45 port on the wall plate. <br>
+&emsp;* Note: To verify that all components are connected, you can change the location to the Network Closet hardware view. You should see green link/activity lights on ports 18 - 21 of the switch. <br>
+### Launch the IP camera monitoring software.
+Under the laptop's workspace, select Front. <br>
+On the IT-Laptop5, select Click to view Windows 10. <br>
+From the taskbar, select Start. <br>
+Select IP Cameras. <br>
+Verify that both cameras are detected on the network. <br>
