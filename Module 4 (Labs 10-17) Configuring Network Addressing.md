@@ -46,7 +46,7 @@ From the PowerShell window, verify that the change has resolved the ping issues 
 The trace to the ISP's router is successful. <br>
 ## Lab 4.12: Use ping and traceroute on Linux
 While completing this lab, use the following information: <br>
-![Example image](images/flab4_12 table.jpg) <br>
+![Example image](images/lab4_12 table.jpg) <br>
 Complete this lab as follows: <br>
 ### From the IT-Laptop system, explore using the ping command.
 Under IT Administration, select IT-Laptop. <br>
