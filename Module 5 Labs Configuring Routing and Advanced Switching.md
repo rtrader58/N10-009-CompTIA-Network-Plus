@@ -232,10 +232,95 @@ Under Shelf, select Cat6a Cable, RJ45. <br>
 From the Selected Component pane: <br>
 &emsp;* Drag an RJ45 Connector to the RJ-45 port on the laptop. <br>
 &emsp;* Drag the unconnected RJ45 Connector to the open RJ-45 port on the wall plate. <br>
-&emsp;* Note: To verify that all components are connected, you can change the location to the Network Closet hardware view. You should see green link/activity lights on ports 18 - 21 of the switch. <br>
+&emsp; Note: To verify that all components are connected, you can change the location to the Network Closet hardware view. You should see green link/activity lights on ports 18 - 21 of the switch. <br>
 ### Launch the IP camera monitoring software.
 Under the laptop's workspace, select Front. <br>
 On the IT-Laptop5, select Click to view Windows 10. <br>
 From the taskbar, select Start. <br>
 Select IP Cameras. <br>
 Verify that both cameras are detected on the network. <br>
+## Lab 5.7: Configure Trunking
+Complete this lab as follows: <br>
+### Log in to the CISCO switch.
+Click the Start button, then select Google Chrome. <br>
+In the URL field, enter 192.168.0.2 and press Enter. <br>
+Maximize the window for better viewing. <br>
+In the Username and Password fields, enter cisco (the password is case sensitive). <br>
+Select Log In. <br>
+### Examine the switch port defaults.
+From the left navigation bar, expand and select VLAN Management > Interface Settings. <br>
+Using the interface shown in the right pane, examine the settings for all ports. <br>
+&emsp;* Note: For a detailed view of a single port, you can select Edit. <br>
+From the upper right, select Questions. <br>
+Answer Question 1. <br>
+Minimize the Lab Questions dialog. <br>
+### Set ports GE1 through GE26 to Access Mode.
+From the Interface Settings pane, select GE1. <br>
+Select Edit. <br>
+Maximize the window for better viewing. <br>
+For Interface VLAN Mode, select Access. <br>
+Select Apply and then select Close. <br>
+With GE1 still selected, click Copy Settings. <br>
+In the to field, type 2-26 and then select Apply. <br>
+Notice that under the Interface VLAN Mode column, ports GE1-GE26 are now set to Access. <br>
+### Set the port VLAN ID (PVID) for ports GE27-GE28 to the value of 2.
+Select the desired port and then select Edit. <br>
+For the Administrative PVID, enter 2. <br>
+Select Apply and then Close. <br>
+Repeat steps 4a - 4c for the second port. <br>
+### Add VLANs 22, 44, and 67 to ports GE27 and GE28.
+From the left pane, under VLAN Management, select Port VLAN Membership. <br>
+Select port GE27 and then select Join VLAN. <br>
+From the new window, hold down the Shift key and select VLANs 22, 44, and 67; then select the > button to assign the VLANs. <br>
+Select Apply and then select Close. <br>
+Repeat steps 5b - 5d for port GE28. <br>
+### Save the changes to the switch's startup configuration file.
+From the top of the switch window, select Save. <br>
+For Source File Name, make sure Running configuration is selected. <br>
+For Destination File Name, make sure Startup configuration is selected. <br>
+Select Apply. <br>
+Select OK. <br>
+Select Done. <br>
+## Lab 5.8: Configure Switch IP Settings - CLI
+Complete this lab as follows: <br>
+### Find the IP address assigned to the FastEthernet0/0 interface on the SFO router.
+Select the Branch1 switch. <br>
+From the Terminal, press Enter to get started. <br>
+Type enable and press Enter to change to the EXEC or Global Configuration mode. <br>
+Type show cdp neighbors detail and press Enter. <br>
+Find the IP address for the SFO router. <br>
+Answer the question. <br>
+Move the question dialog to the side and keep working. <br>
+### Configure the IP address and subnet mask for the Branch1 switch.
+At the Branch1# prompt, type config t and press Enter. <br>
+At the Branch1(config)# prompt, type interface vlan1 and press Enter. <br>
+At the Branch1(config-if)# prompt, type ip address 192.168.11.250 255.255.255.0 and press Enter. <br>
+At the Branch1(config-if)# prompt, type exit and press Enter. <br>
+### Configure the switch to use the FastEthernet0/0 interface on the SFO router as the default gateway.
+At the Branch1(config)# prompt, type ip default-gateway routers_IP_address and press Enter. <br>
+At the Branch1(config)# prompt, type exit and press Enter. <br>
+### Save your changes to the startup-config file.
+At the Branch1# prompt, type copy run start and press Enter. <br>
+Press Enter to begin building the configuration. <br>
+When you see OK, press Enter. <br>
+### Lab 5.9: Configure Management VLAN Settings - CLI
+Complete this lab as follows: <br>
+### Configure the IP address and subnet mask for the VLAN 1 interface.
+Select Switch. <br>
+From the switch terminal, press Enter to get started. <br>
+At the Switch> prompt, type enable and press Enter. <br>
+At the Switch# prompt, type configure terminal and press Enter. <br>
+At the Switch(config)# prompt, type interface vlan1 and press Enter. <br>
+At the Switch(config-if)# prompt, type ip address 192.168.11.250 255.255.255.0 and press Enter. <br>
+Type exit and press Enter. <br>
+### Configure the default gateway.
+At the Switch(config)# prompt, type ip default-gateway 192.168.11.254 and press Enter. <br>
+At the prompt, type exit and press Enter. <br>
+### Verify the configuration changes.
+At the prompt, type show run and press Enter. <br>
+Press the space bar as needed to verify that the correct changes were made. <br>
+### Type any key to exit show command.
+Save your changes to the startup-config file. <br>
+At the Switch# prompt, type copy run start and press Enter. <br>
+Press Enter to begin building the configuration. <br>
+Press Enter to return to the prompt. <br>
