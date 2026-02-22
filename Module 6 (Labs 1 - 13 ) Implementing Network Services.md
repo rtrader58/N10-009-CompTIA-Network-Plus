@@ -67,7 +67,7 @@ Select Add and then select Next. <br>
 In the IP address field, enter 163.128.78.93 as the DNS server address. <br>
 Select Add and then select Next. <br>
 From the WINS Servers window, select Next. <br>
-A### ctivate the scope just created. <br>
+### Activate the scope just created. <br>
 Make sure Yes, I want to activate this scope now is selected and then select Next. <br>
 Click Finish to close the wizard and create the scope. <br>
 ### Configure the laptop in the Lobby to obtain IP and DNS addresses automatically from the DHCP server.
