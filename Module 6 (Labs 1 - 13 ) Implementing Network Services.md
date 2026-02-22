@@ -24,7 +24,7 @@ Select a packet that includes [ACK] in the Info column. <br>
 Select Questions, then answer Questions 5 and 6. <br>
 ## Lab 1.2: View Open Ports with netstat
 ### While completing this lab, use the following information:
-![Example image](lab6_2_table.jpg) 
+![Example image](lab5_4_2_table.jpg)  <br>
 Complete this lab as follows: <br>
 ### Use Zenmap to scan for open ports running VNC.
 From the Favorites bar, select Zenmap. <br>
