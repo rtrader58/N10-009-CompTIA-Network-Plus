@@ -154,7 +154,7 @@ Enter exit to return to the global configuration mode and notice the change in t
 Complete this lab as follows: <br>
 ### Log in to the Cisco switch.
 In the Username and Password fields, enter cisco (case-sensitive). <br>
-Select Log In <br>.
+Select Log In. <br>
 ### Create a new Link Aggregation Group (LAG1).
 From the left pane, expand and select Port Management > Link Aggregation > LAG Management. <br>
 From the right pane, select LAG 1 and then select Edit. <br>

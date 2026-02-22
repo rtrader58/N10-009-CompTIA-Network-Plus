@@ -2,7 +2,7 @@
 
 ## Lab 4.1: Explore Packets and Frames
 Complete this lab as follows: <br>
-###Begin a Wireshark capture. <br>
+### Begin a Wireshark capture. <br>
 From the Favorites bar, select Wireshark. <br>
 Maximize the window for easier viewing. <br>
 Under Capture, select enp2s0. <br>

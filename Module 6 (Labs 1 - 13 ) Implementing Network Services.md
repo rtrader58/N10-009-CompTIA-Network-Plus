@@ -24,7 +24,7 @@ Select a packet that includes ACK in the Info column. <br>
 Select Questions, then answer Questions 5 and 6. <br>
 ## Lab 1.2: View Open Ports with netstat
 ### While completing this lab, use the following information:
-![Example image](tablelab6-2.jpg)  <br>
+![Example image](Images/tablelab6-2.jpg)  <br>
 Complete this lab as follows: <br>
 ### Use Zenmap to scan for open ports running VNC.
 From the Favorites bar, select Zenmap. <br>
@@ -122,7 +122,7 @@ Select Add. <br>
 Select Close to close the Add Exclusion Range dialog. <br>
 ## Lab 6.6: Create DHCP Client Reservations
 While completing this lab, use the following information: <br>
-![Example image](lab6_6_table.jpg) <br>
+![Example image](images/lab6_6_table.jpg) <br>
 Complete this lab as follows: <br>
 ### Access the CorpDHCP virtual server.
 From Hyper-V Manager, select CORPSERVER. <br>
