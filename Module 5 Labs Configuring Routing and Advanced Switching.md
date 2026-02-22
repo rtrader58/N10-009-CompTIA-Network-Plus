@@ -129,7 +129,6 @@ Complete this lab as follows: <br>
 In the tools tray, select Create Link. <br>
 Create the connections by doing the following: <br>
 &emsp;* Select Access1 and then Access 1 port 0. <br>
-
 &emsp;* Select Dist1 and then enp2s0. <br>
 &emsp;* Select Access2 and then Access 2 port 0. <br>
 &emsp;* Select Dist2 and then enp2s0. <br>
