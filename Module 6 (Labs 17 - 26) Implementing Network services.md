@@ -205,23 +205,23 @@ Type nslookup CorpWeb.CorpNet.local CorpDC3.CorpNet.local and press Enter.
 ### Consider the following questions:
 &emsp; What is the Problem? <br>
 &emsp; The information between the DNS databases is not consistent. Since this DNS zone is an Active Directory-integrated zone, this indicates that Active Directory is not synchronizing properly. <br>
- <br>
 &emsp; How would you resolve this problem? <br>
 &emsp; You would likely attempt to force replication between the Active Directory domain controllers. If CorpDC held a primary zone and CorpDC3 held a secondary zone, you would likely initiate a zone transfer to make sure that the DNS records were consistent between servers. <br>
- <br>
 &emsp; How would you verify that the problem has been fixed? <br>
 &emsp; After implementing the above solution, you could verify that the problem was fixed by repeating step 2. The CorpDC3 DNS server should respond with name resolution information for CorpWeb. <br>
 ## Lab 6.25: Use nslookup
-Complete this lab as follows:
+Complete this lab as follows: <br>
 ### Use nslookup to find the primary IP address for the corpnet.xyz domain.
-From the Favorites bar, select Terminal.
-At the prompt, type nslookup corpnet.xyz and press Enter.
-From the top right, select Questions.
-Answer Question 1.
+From the Favorites bar, select Terminal. <br>
+At the prompt, type nslookup corpnet.xyz and press Enter. <br>
+From the top right, select Questions. <br>
+Answer Question 1. <br>
 ### Use nslookup to find the mail server for corpnet.xyz and its IP address:
-At the prompt, type nslookup -type=mx corpnet.xyz and press Enter.
-At the prompt, type nslookup www3.corpnet.xyz and press Enter.
-Answer Question 2.
+At the prompt, type nslookup -type=mx corpnet.xyz and press Enter. <br>
+At the prompt, type nslookup www3.corpnet.xyz and press Enter. <br>
+Answer Question 2. <br>
 ### Use nslookup to confirm the corpnet.xyz mail server information by querying the external DNS server (ns1.nethost.net).
-At the prompt, type nslookup -type=mx corpnet.xyz ns1.nethost.net and press Enter.
-Answer Question 3.
+At the prompt, type nslookup -type=mx corpnet.xyz ns1.nethost.net and press Enter. <br>
+Answer Question 3. <br>
+### Applied Live Lab 6.26: Report DNS Configuration
+Live Lab <br>
