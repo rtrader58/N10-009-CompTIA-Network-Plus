@@ -157,3 +157,107 @@ In the Apply a display filter field, type tcp contains password and press Enter.
 Select the red box to stop the Wireshark capture. <br>
 From the bottom pane, locate the password. <br>
 Answer Question 7. <br>
+## Lab 8.14: Configure Port Mirroring
+Complete this lab as follows: <br>
+### Log in to the Cisco switch.
+Maximize the Google Chrome window for better viewing. <br>
+In the Username and Password fields, enter cisco (case-sensitive). <br>
+Select Log In. <br>
+### Assign port GE26 to VLAN 1.
+From the left pane, expand and select VLAN Management > Port VLAN Membership. <br>
+Select GE26 and then select Join VLAN. <br>
+From the left pane, under Select VLAN, select 1 (for VLAN 1). <br>
+Select > to move VLAN 1 from the available pane to the attached VLAN pane. <br>
+Select Apply and then select Close. <br>
+### Mirror the received traffic from port GE28 to port GE26.
+From the left pane, expand and select Administration > Diagnostics > Port and VLAN Mirroring. <br>
+Select Add. <br>
+For the Destination Port, use the drop-down list to select GE26. <br>
+For the Source Interface, use the drop-down list to select GE28. <br>
+For the Type, make sure that Rx only is selected. This allows you to only mirror the incoming packets. <br>
+Select Apply and then select Close. <br>
+### Save the changes to the switch's startup configuration file.
+From the upper right of the switch window, select Save. <br>
+For the Source File Name, make sure Running configuration is selected. <br>
+For the Destination File Name, make sure Startup configuration is selected. <br>
+Select Apply. <br>
+Select OK. <br>
+Select Done. <br>
+## Lab 8.15: Configure QoS
+Complete this lab as follows: <br>
+### Sign in to the pfSense management console.
+In the Username field, enter admin. <br>
+In the Password field, enter P@ssw0rd (0 = zero). <br>
+Select SIGN IN or press Enter. <br>
+### Create a high bandwidth usage alias.
+From the pfSense menu bar, select Firewall > Aliases. <br>
+Select Add. <br>
+Configure the Properties as follows: <br>
+&emsp; * Name: HighBW <br>
+&emsp; * Description: High bandwidth users <br>
+&emsp; * Type: Host(s) <br>
+Add the IP addresses of the offending computers to the host(s) configuration as follows: <br>
+&emsp; * Under Host(s), in the IP or FQDN field, enter 172.14.1.25 for Vera's system. <br>
+&emsp; * Select Add Host. <br>
+&emsp; * In the new IP or FQDN field, enter 172.14.1.100 for Paul's system. <br>
+Select Save. <br>
+Select Apply Changes. <br>
+### Start the Traffic Shaper wizard for dedicated links.
+From the pfSense menu bar, select Firewall > Traffic Shaper. <br>
+Under the Firewall bread crumb, select Wizards. <br>
+Select traffic_shaper_wizard_dedicated.xml. <br>
+Under Traffic Shaper wizard, verify that the Enter number of WAN type connections field is set to 1 and then select Next. <br>
+### Configure the Traffic Shaper.
+Make sure you are on Step 1 of 8. <br>
+Using the drop-down menu for the upper Local interface, select GuestWi-Fi. <br>
+Using the drop-down menu for the lower Local interface, make sure PRIQ is selected. <br>
+For the upper Upload field, enter 8. <br>
+Using the drop-down menu for the lower Upload field, select Mbit/s. <br>
+For the top Download field, enter 50. <br>
+Using the drop-down menu for the lower Download field, select Mbit/s. <br>
+Select Next. <br>
+### Prioritize voice-over IP traffic.
+Make sure you are on Step 2 of 8. <br>
+Under Voice over IP, select Enable to prioritize the voice over IP traffic. <br>
+Under Connection #1 parameters, in the Upload rate field, enter 10. <br>
+Using the drop-down menu for the top Units, select Mbit/s. <br>
+For the Download rate, enter 20. <br>
+Using the drop-down menu for the bottom Units, select Mbit/s. <br>
+Select Next. <br>
+### Enable and configure a penalty box.
+Make sure you are on Step 3 of 8. <br>
+Under Penalty Box, select Enable to enable the penalize IP or alias option. <br>
+In the Address field, enter HighBW. This is the alias created earlier. <br>
+For Bandwidth, enter 3. <br>
+Select Next. <br>
+### Continue to step 6 of 8.
+For Step 4 of 8, scroll to the bottom and select Next. <br>
+For Step 5 of 8, scroll to the bottom and select Next. <br>
+### Raise and lower the applicable application's priority.
+Make sure you are on Step 6 of 8. <br>
+Under Raise or lower other Applications, select Enable to enable other networking protocols. <br>
+Under Remote Service / Terminal emulation, use the: <br>
+&emsp; * MSRDP drop-down menu to select Higher priority. <br>
+&emsp; * VNC drop-down menu to select Higher priority. <br>
+Under VPN: <br>
+&emsp; * Use the PPTP drop-down menu to select Higher priority. <br>
+&emsp; * Use the IPSEC drop-down menu to select Higher priority. <br>
+Scroll to the bottom and select Next. <br>
+For step 7 of 8, select Finish. <br>
+Wait for the reload status to indicate that the rules have been created (look for Done). <br>
+### View the floating rules created for the firewall.
+Select Firewall > Rules. <br>
+Under the Firewall breadcrumb, select Floating. <br>
+From the top right, select Questions. <br>
+Answer the question and then minimize the question dialog. <br>
+### Change the port number used for the MSRDP outbound rule.
+For the m_Other MSRDP outbound rule, select the edit icon (pencil). <br>
+Under Edit Firewall Rule, in the Interface field, select GuestWi-Fi. <br>
+Under Destination, use the Destination Port Range drop-down menu to select Other. <br>
+In both Custom fields, enter 3391. <br>
+Select Save. <br>
+Select Apply Changes. <br>
+## Live Lab 8.16: Configure Flow Collection and Analysis
+Live Lab <br>
+## Applied Live Lab 8.17: Troubleshoot Network Service Issues
+Live Lab <br>
