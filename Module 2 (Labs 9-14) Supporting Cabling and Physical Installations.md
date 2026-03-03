@@ -7,7 +7,7 @@ Under Networking Closet, select Hardware.
 Zoom in on the Cisco switch in the rack to view the power and network activity lights. <br>
 Note: When a component's power light (the left light) is on, you know the device is plugged in and turned on. <br>
 The network activity light (the right light) tells you which ports are connected to an active device. When this light is blinking, you know that network traffic is being transmitted through the port. <br>
-![Example image](images/trb_net_comm_exp_1.jpg)
+![Example image](images/trb_net_comm_exp_1.jpg) <br>
 From the top right, select Questions. <br>
 Answer Questions 1-3. <br>
 Minimize the Lab Questions window. <br>
