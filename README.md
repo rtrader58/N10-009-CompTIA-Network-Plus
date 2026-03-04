@@ -6,4 +6,4 @@
 This repository is maintained by Rick Trader<br>
 Interface Technical Training<br>
 
-If you find a Link is not working, please add it to issues or a pull request and I will research and update it the appropriately .<br>
+If you find a Link is not working, please add it to issues or a pull request and I will research and update it appropriately.<br>
