@@ -24,5 +24,37 @@ Select Next. <br>
 Select Next. <br>
 Select Create. <br>
 Select Close. <br>
-&emsp; To view the iSCSI virtual disk and target you just created, expand the Server Manager window. <br> <br>
-# Work still in progress
+&emsp; To view the iSCSI virtual disk and target you just created, expand the Server Manager window. <br>
+## Lab: Configure an iSCSI Initiator
+Complete this lab as follows: <br>
+### Access the CorpFiles16 server.
+From Hyper-V Manager, select CORPSERVER. <br>
+Maximize the window to view all virtual machines. <br>
+Double-click CorpFiles16 to connect to the computer. <br>
+### Using the iSCSI Initiator, discover and log on to the target server.
+From Server Manager on CorpFiles16, select Tools > iSCSI Initiator. <br>
+In the Target field, enter CorpiSCSI as the target server. <br>
+Select Quick Connect and verify that a target was added to the Discovered targets pane. <br>
+Select Done. <br>
+Select OK to close the iSCSI Initiator Properties window. <br>
+### Bring the iSCSI disk online.
+From the left pane of Server Manager, select File and Storage Services. <br>
+Select Disks. <br>
+Maximize the Server Manager window for better viewing. <br>
+In the DISKS panel, find the Bus Type column and select the iSCSI disk. <br>
+Right-click the iSCSI disk and select Bring Online. <br>
+Select Yes to confirm <br>.
+### Create a new volume for the iSCSI disk.
+Right-click the iSCSI disk and select New Volume. <br>
+Click Next to begin the New Volume Wizard. <br>
+Under Disk, select Disk 3 and then select Next. <br>
+Make sure the Volume size is using the maximum capacity available and then select Next. <br>
+Change Drive letter to G and then select Next. <br>
+Make sure NTFS is selected as the file system. <br>
+For the Volume label field, use iSCSI as the name of the volume and then select Next.
+Select Create. <br>
+After the volume is created, select Close. <br>
+## Live Lab 14.3: Deploy a Cloud VM
+Live Lab <br>
+## Live Lab 14.4: Configure Cloud Networking
+Live Lab <br>
