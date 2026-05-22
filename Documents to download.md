@@ -1,3 +1,8 @@
+# Documents to download
+Click the link to open the PDF in the browser. <br>
+Click the ![Example image](images/Download.jpg) to download the file <br>
+Note: File will be stored in your default download folder <br>
+
 [A+ 1200 series supplemental handout-v1.01](Downloads/A+1200_handout-v1.01.pdf) <br>
 [Active vs Passive FTP](Downloads/Active_vs_PassiveFTP.pdf) <br>
 [Borrowed bits by address class](Downloads/Borrowed_bits_by_address_class.pdf) <br>
