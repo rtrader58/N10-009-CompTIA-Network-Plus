@@ -2,4 +2,4 @@
   Download A+ 1200 series supplemental handout-v1.01
 </a>
 
-[Download A+ 1200 series supplemental handout-v1.01](Documents/A+1200 handout-v1.01.pdf)
+[Download A+ 1200 series supplemental handout-v1.01](path/Documents/A+1200 handout-v1.01.pdf)
