@@ -3,12 +3,11 @@
 Interface Technical Training - http://www.interfacett.com <br>
 Class Recording (Replay) - https://replay.interfacett.com/login.php <br>
 CompTIA Network+ Exam Objectives - https://www.comptia.org/en-us/certifications/network/ <br>
-CompTIA Study Group on Discord - https://discord.com/invite/ZSkXJsby <br>
 Welcome to CompTIA Central - http://login.comptia.org <br>
 CompTIA Interface Technical Training CompTIA Portal - https://platform.comptia.org/ <br>
 Live cyber attack websites https://cybermap.kaspersky.com/   <br>
 Concentric explosions at destination - cool! Spherical globe view - nice! https://attackmap.sonicwall.com/live-attack-map/  <br>
-This site has A+  Network+  Security+   info on continuing education, Certmaster products, et al. https://www.comptia.org/en-us/resources/ <br>
+This site has A+  Network+  Security+ info on continuing education, Certmaster products, et al. https://www.comptia.org/en-us/resources/ <br>
 Link to information regarding what qualifies for Continuing Education credits. https://www.comptia.org/continuing-education  <br>
 The below  links are to websites with practice exams for the Network+ exam. <br>
 https://exampremium.com/comptia-network/ <br>
