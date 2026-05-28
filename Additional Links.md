@@ -21,10 +21,12 @@ Link provides info on CompTIA's rules regarding how recertifying one cert impact
 Link to the CompTIA website where it discusses CompTIA's Certmaster program which has practice exams and labs available with a free trial period or for purchase. https://www.comptia.org/training/certmaster-practice/network  <br>
 Here is a link for more information on the CompTIA exam voucher purchase process:  https://www.comptia.org/testing/exam-vouchers/buy-exam
 https://www.comptia.org/en-us/blog/comptia-online-exam-experience/ <br>
+Discord.com CompTIA study group - https://discord.com/invite/ZSkXJsby <br>
 
 # Links related to class modules
 
-Discord.com CompTIA study group - https://discord.com/invite/ZSkXJsby <br>
+## Module 4
+
 Here are some recommendations for websites for subnetting practice:  <br>
 For doing problem after problem in quick succession - San Bernardino Valley College: IP Subnet Practice Page -  https://faculty.valleycollege.edu/rpowell/jscript/subnet2.htm <br>
 For word problems - http://subnettingquestions.com/ <br>
