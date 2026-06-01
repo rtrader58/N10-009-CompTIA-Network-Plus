@@ -24,6 +24,16 @@ Discord.com CompTIA study group - https://discord.com/invite/ZSkXJsby <br>
 
 # Links related to class modules
 
+## Module 1
+
+Here are 4 different links to online emulators.  Check them out when you have a chance. <br>
+https://anweb.dlink.ru/ <br>
+https://highspeed.tips/routers/ <br>
+https://www.tp-link.com/us/support/emulator/ <br>
+https://community.cisco.com/t5/online-device-emulators-small-business/bd-p/911-discussions-online-device-emulators <br>
+However: https://www.pcmag.com/news/us-considers-banning-tp-link-routers-over-security-concerns <br>
+The software that empowers network professionals - https://www.gns3.com/ <br>
+
 ## Module 4
 
 Here are some recommendations for websites for subnetting practice:  <br>
@@ -31,13 +41,9 @@ For doing problem after problem in quick succession - San Bernardino Valley Coll
 For word problems - http://subnettingquestions.com/ <br>
 For a variety of subnetting problem types - https://subnettingpractice.com/ <br>
 Input subnet problem of your choosing-see solution - https://calculator.boson.com/calculator <br>
-The software that empowers network professionals - https://www.gns3.com/ <br>
-Here are 4 different links to online emulators.  Check them out when you have a chance. <br>
-https://anweb.dlink.ru/ <br>
-https://highspeed.tips/routers/ <br>
-https://www.tp-link.com/us/support/emulator/ <br>
-https://community.cisco.com/t5/online-device-emulators-small-business/bd-p/911-discussions-online-device-emulators <br>
-However: https://www.pcmag.com/news/us-considers-banning-tp-link-routers-over-security-concerns <br>
+
+## Module 6
+
 DNS for families - https://blog.cloudflare.com/introducing-1-1-1-1-for-families/ <br>
 DNS - https://adguard-dns.io/en/public-dns.html <br>
 Password haystack - https://www.grc.com/haystack.htm <br>
