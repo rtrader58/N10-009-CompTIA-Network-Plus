@@ -2,11 +2,9 @@
 
 Interface Technical Training - http://www.interfacett.com <br>
 Class Recording (Replay) - https://replay.interfacett.com/login.php <br>
-CompTIA Network+ Exam Objectives - https://www.comptia.org/en-us/certifications/network/ <br>
 Welcome to CompTIA Central - http://login.comptia.org <br>
 CompTIA Interface Technical Training CompTIA Portal - https://platform.comptia.org/ <br>
-Live cyber attack websites https://cybermap.kaspersky.com/   <br>
-Concentric explosions at destination - cool! Spherical globe view - nice! https://attackmap.sonicwall.com/live-attack-map/  <br>
+CompTIA Network+ Exam Objectives - https://www.comptia.org/en-us/certifications/network/ <br>
 This site has A+  Network+  Security+ info on continuing education, Certmaster products, et al. https://www.comptia.org/en-us/resources/ <br>
 Link to information regarding what qualifies for Continuing Education credits. https://www.comptia.org/continuing-education  <br>
 The below  links are to websites with practice exams for the Network+ exam. <br>
@@ -15,6 +13,8 @@ https://www.gocertify.com/labs/network-plus-practice-labs <br>
 https://www.examcompass.com/comptia-network-plus-certification-practice-test-1-exam-n10-009 <br>
 https://www.measureup.com/comptia-network-n10-009-practice-test.html <br>
 https://www.comptia.org/en/blog/the-new-network-n10-009-exam-your-questions-answered/ <br>
+Live cyber attack websites https://cybermap.kaspersky.com/   <br>
+Concentric explosions at destination - cool! Spherical globe view - nice! https://attackmap.sonicwall.com/live-attack-map/  <br>
 Link to virtual white board:  https://home.pearsonvue.com/Standalone-pages/Whiteboard.aspx <br>
 Link provides info on CompTIA's rules regarding how recertifying one cert impacts the status of other CompTIA certs. https://www.comptia.org/continuing-education/learn/renewing-multiple-certifications  <br>
 Link to the CompTIA website where it discusses CompTIA's Certmaster program which has practice exams and labs available with a free trial period or for purchase. https://www.comptia.org/training/certmaster-practice/network  <br>
