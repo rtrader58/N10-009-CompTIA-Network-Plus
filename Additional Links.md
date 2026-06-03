@@ -59,6 +59,7 @@ The Open Source Security Platform - https://wazuh.com/ <br>
 Realistic Traffic Generator - https://trex-tgn.cisco.com/ <br>
 Ostinato Traffic Generator for Network Engineers - https://ostinato.org/ <br>
 Alternate source for firmware - https://dd-wrt.com/ <br>
+Wireshark Download - https://www.wireshark.org/ <br>
 
 ## Module 9
 
