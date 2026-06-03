@@ -46,7 +46,6 @@ Input subnet problem of your choosing-see solution - https://calculator.boson.co
 
 DNS for families - https://blog.cloudflare.com/introducing-1-1-1-1-for-families/ <br>
 DNS - https://adguard-dns.io/en/public-dns.html <br>
-Password haystack - https://www.grc.com/haystack.htm <br>
 Free FTP server - https://filezilla-project.org/ <br>
 
 ## Module 8
@@ -66,6 +65,8 @@ Alternate source for firmware - https://dd-wrt.com/ <br>
 https://en.wikipedia.org/wiki/Triangle_Shirtwaist_Factory_fire <br>
 https://en.wikipedia.org/wiki/Morris_worm <br>
 https://www.theregister.com/2020/08/26/former_cisco_engineer_aws_webex_teams/ <br>
+Password haystack - https://www.grc.com/haystack.htm <br>
+This is the video with Kevin Mitnick explaining and showing the BAD USB CABLE attack https://www.youtube.com/watch?v=4Zcf4vS0DlM  <br>
 
 ### Module 10
 
@@ -78,7 +79,7 @@ https://www.oscium.com/products/complete-bundle-all-in-one-troubleshooting/ <br>
 https://hak5.org/collections/home1/products/omg-cable?variant=39808315981937 <br>
 Personal VPN that I recommend ^ https://www.witopia.com/  <br>
 https://www.entrepreneur.com/business-news/microsoft-pays-woman-10000-for-unwanted-windows-10/276814 <br>
-This is the video with Kevin Mitnick explaining and showing the BAD USB CABLE attack https://www.youtube.com/watch?v=4Zcf4vS0DlM  <br>
+
 
 
 
