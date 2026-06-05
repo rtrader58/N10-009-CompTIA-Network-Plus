@@ -13,5 +13,5 @@ Note: File will be stored in your default download folder <br>
 [Objective Mapping CertMaster Labs Network+ (N10-009).pdf](Source-files/Objective_Mapping-CertMaster_Labs_Network+_(N10-009).pdf) <br>
 [Powers of 2 and subnet mask values](Source-files/Powers_of_2_and_subnet_mask_values) <br>
 [Subnetting with the Magic box](Source-files/Subnetting_TCP_Wide.pdf) <br>
-[Tuesday-Friday review slides with answers-N10-009](Source-files/Tuesday-Friday_review_slides_with_answers-N10-009.pdf) <br>
+
 
