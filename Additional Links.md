@@ -34,6 +34,10 @@ https://community.cisco.com/t5/online-device-emulators-small-business/bd-p/911-d
 However: https://www.pcmag.com/news/us-considers-banning-tp-link-routers-over-security-concerns <br>
 The software that empowers network professionals - https://www.gns3.com/ <br>
 
+
+## Module 3
+
+MAC address lookup - https://www.macvendorlookup.com/ <br>
 ## Module 4
 
 Here are some recommendations for websites for subnetting practice:  <br>
