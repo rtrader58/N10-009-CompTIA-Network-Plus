@@ -1,6 +1,8 @@
 # Additional Links
 
 Interface Technical Training - http://www.interfacett.com <br>
+Interface Technical Training Facebook page - https://www.facebook.com/InterfaceTraining <br>
+Interface Technical Training LinkedIn Page - https://www.linkedin.com/company/interface-technical-training/posts/ <br>
 Class Recording (Replay) - https://replay.interfacett.com/login.php <br>
 Welcome to CompTIA Central - http://login.comptia.org <br>
 CompTIA Interface Technical Training CompTIA Portal - https://platform.comptia.org/ <br>
